@@ -12,6 +12,9 @@ Depois é necessário ativar o ambiente virtual, digite:
 
 `.\venv\Scripts\activate`
 
+Depois do ambiente ativado instale os requirements.txt
+`.pip install -r requirements.txt`
+
 Depois é necessário fazer as migracoes, digite:
 
 `python manage.py makemigrations`, depois `python manage.py migrate`
