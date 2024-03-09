@@ -32,7 +32,7 @@ https://prnt.sc/sAqhme-3hmGD
 
 <h4> DELETE = Para ultilizar o delete, precisamos passar o id na url, em seguida ele apaga os dados do alimento no banco de dados, junto com o seu id</h4>
 
-<h1>
+<h7>OBS: Tentei usar um banco de dados externo o mysql, mas nao consegui a tempo, futuramente faco a alteracao<h/7>
 
 
 <H4>Obrigado por utilizar minha aplicação, duvidas entre em contato 83 99124-3877 </h4>
