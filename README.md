@@ -28,7 +28,7 @@ Feito isso, podemos usar os 4 métodos: GET, POST, PUT, DELETE
 ### GET
 
 Vai te retornar os alimentos cadastrados.  
-Exemplo: ![Exemplo GET](https://prnt.sc/jWX5GgA1_SZV)
+Exemplo: ![Exemplo GET](https://github.com/srpavani/DesafioFabrica2024/assets/53492119/7bf2a69b-0444-447d-8fff-5017e8e1b550)
 
 ### POST
 
