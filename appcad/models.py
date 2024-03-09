@@ -13,18 +13,6 @@ class NutriModel(models.Model):
         return f"{self.nome} {self.caloria} {self.proteina} {self.carboidrato} {self.acuca}"
     
 
-
-
-
-
-
-class RefeicaoModel(models.Model):
-        nome= models.ForeignKey(NutriModel, on_delete=models.CASCADE)
-        REFEICAO_CHOICES = (
-        ("J", "Jantar"),
-        ("C", "café"),
-        ("N", "Nenhuma das opções"))
-        tipo = models.CharField(verbose_name="tipo", max_length=1, choices=REFEICAO_CHOICES)
-       
+        
        
         
