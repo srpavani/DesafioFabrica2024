@@ -1,36 +1,50 @@
-:hammer: Desafio Fabrica 2024 :hammer:
+# :hammer: Desafio Fábrica 2024 :hammer:
 
-<h4>Essa aplicao serve para cadastrar as informacoes nutricionais de um alimento no banco de dados.
+Essa aplicação serve para cadastrar as informações nutricionais de um alimento no banco de dados.
 
-<h4> Para instalar a aplicação é necessário um ambiente de desenvolvimento, na pasta da aplicao e no seu terminal digite :python -m venv venv
+## Instalação
 
-<h4> Depois é necessário ativar, digite:   .\venv\Scripts\activate
+Para instalar a aplicação é necessário um ambiente de desenvolvimento, na pasta da aplicação e no seu terminal digite:
 
-<h4> Para iniciar o servidor da aplicação digite: python manage.py runserver
+`python -m venv venv`
 
-<h4> Para usar é necessário fazer requisições, para isso eu utilizei o software Insomini (Para download https://insomnia.rest/download)
+Depois é necessário ativar o ambiente virtual, digite:
+
+`.\venv\Scripts\activate`
+
+Para iniciar o servidor da aplicação digite:
+
+`python manage.py runserver`
 
 
+## Uso da Aplicação
 
-<h4> Ja no insomnia, lembre-se de verificar se a url está assim => 127.0.0.1:8000/api/nutri/
+Para usar é necessário fazer requisições, para isso eu utilizei o software Insomnia (Para download [clique aqui](https://insomnia.rest/download)).
 
-<h4> Feito isso podemos usar os 4 métodos: GET, POST, PUT, Delete
+Já no Insomnia, lembre-se de verificar se a URL está assim: `127.0.0.1:8000/api/nutri/`
 
-<h4> GET = vai te retornar os alimentos cadastrados 
-https://prnt.sc/jWX5GgA1_SZV
+Feito isso, podemos usar os 4 métodos: GET, POST, PUT, DELETE
 
-<h4> POST = vamos utilizar para cadastrar os alimentos no banco de dados 
-para fazer isso temos que passar um parametro name e depois o nome do alimento em ingles
+### GET
 
-https://prnt.sc/oORdKxKF4fxA
+Vai te retornar os alimentos cadastrados.  
+Exemplo: ![Exemplo GET](https://prnt.sc/jWX5GgA1_SZV)
 
-se retornar 201, o alimento foi incluido com sucesso no banco de dados
+### POST
 
-<h4> PUT = para utilizar o put, precisamos passar o id na url, seguida do json com o campo que queremos alterar
+Vamos utilizar para cadastrar os alimentos no banco de dados. Para fazer isso temos que passar um parâmetro `name` e depois o nome do alimento em inglês.  
+Exemplo: ![Exemplo POST](https://prnt.sc/oORdKxKF4fxA)  
+Se retornar `201`, o alimento foi incluído com sucesso no banco de dados.
 
-https://prnt.sc/sAqhme-3hmGD  
+### PUT
 
-<h4> DELETE = Para ultilizar o delete, precisamos passar o id na url, em seguida ele apaga os dados do alimento no banco de dados, junto com o seu id</h4>
+Para utilizar o PUT, precisamos passar o ID na URL, seguida do JSON com o campo que queremos alterar.  
+Exemplo: ![Exemplo PUT](https://prnt.sc/sAqhme-3hmGD)
 
-<H4>Obrigado por utilizar minha aplicação, duvidas entre em contato 83 99124-3877 </h4>
+### DELETE
 
+Para utilizar o DELETE, precisamos passar o ID na URL, em seguida ele apaga os dados do alimento no banco de dados, junto com o seu ID.
+
+## Suporte
+
+Obrigado por utilizar minha aplicação. Para dúvidas, entre em contato: 83 99124-3877
