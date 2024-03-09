@@ -1,6 +1,6 @@
 # :hammer: Desafio Fábrica 2024 :hammer:
 
-Essa aplicação serve para cadastrar as informações nutricionais de um alimento no banco de dados.
+Essa aplicação serve para cadastrar as informações nutricionais de um alimento no banco de dados(MSQL E SQLITE).
 
 ## Instalação
 
