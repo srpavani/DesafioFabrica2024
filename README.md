@@ -12,6 +12,10 @@ Depois é necessário ativar o ambiente virtual, digite:
 
 `.\venv\Scripts\activate`
 
+Depois é necessário fazer as migracoes, digite:
+
+`python manage.py makemigrations`, depois `python manage.py migrate`
+
 Para iniciar o servidor da aplicação digite:
 
 `python manage.py runserver`
