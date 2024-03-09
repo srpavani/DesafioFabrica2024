@@ -5,7 +5,7 @@ from django.db import models
 class NutriModel(models.Model):
     nome = models.CharField(verbose_name="nome", max_length=30)
     caloria = models.CharField(verbose_name="caloria", max_length=30, blank = True, null = True)
-    proteina = models.CharField(verbose_name="proteina", max_length=30, blank = True)
+    proteina = models.CharField(verbose_name="proteina", max_length=30, blank = True, null = True)
     carboidrato = models.CharField(verbose_name="carboidrato", max_length=30, blank = True)
     acuca = models.CharField(verbose_name="acuca", max_length=30, blank = True)
 
